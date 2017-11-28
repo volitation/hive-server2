@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.shsnc.bigdata.yun</groupId>
+	<artifactId>hive-server2</artifactId>
+	<version>0.13.1-cdh5.3.6</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>hive-service</groupId>
+			<artifactId>hive-service</artifactId>
+			<version>2.1.1</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/hive-service-2.1.1.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>hadoop-common</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>2.7.3</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/hadoop-common-2.7.3.jar</systemPath>
+		</dependency>
+	</dependencies>
+
+</project>
